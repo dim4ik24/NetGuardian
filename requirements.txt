@@ -1,0 +1,12 @@
+customtkinter>=5.2.2
+requests>=2.31.0
+urllib3>=2.0.0
+python-dotenv>=1.0.0
+
+# Optional but highly recommended:
+pywifi>=1.1.12          # Native Wi-Fi API (better than netsh parsing)
+psutil>=5.9.0           # Process/traffic monitoring (GlassWire style, Game Mode)
+scapy>=2.5.0            # ARP Spoofing Kill Switch (requires Admin/root)
+win10toast>=0.9         # Windows push notifications (Forecast scheduler)
+dnspython>=2.4.0        # DNS query library (alternative to raw sockets)
+ping3>=4.0.4            # Used by app/core/utils.py

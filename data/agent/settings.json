@@ -1,0 +1,23 @@
+{
+  "scan_interval": 300,
+  "auto_fix": true,
+  "notify_all": false,
+  "tapo": {
+    "enabled": true,
+    "ip": "192.168.0.104",
+    "email": "viligockijdima@gmail.com",
+    "password": "dIMAS123_"
+  },
+  "tapo_guard": {
+    "volt_min": 200.0,
+    "volt_max": 250.0,
+    "volt_warn_low": 210.0,
+    "volt_warn_high": 240.0,
+    "amp_max": 10.0,
+    "watt_max": 2200.0,
+    "auto_restore": true,
+    "restore_delay": 30,
+    "price_per_kwh": 4.32,
+    "monitor_interval": 60
+  }
+}

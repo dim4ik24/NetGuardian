@@ -1,0 +1,96 @@
+# ────────────────────────────────────────────
+# NetGuardian AI — .gitignore
+# ────────────────────────────────────────────
+
+# 🔒 Секрети (ніколи не коміть!)
+.env
+.env.local
+*.key
+*.pem
+
+# 🗄️ Бази даних та логи (дані користувача)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/*.json
+data/*.log
+data/*.txt
+
+# Винятки — ці файли треба тримати в git:
+!data/.gitkeep
+!data/README.md
+
+# 📦 Python кеші та білд артефакти
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 🐍 Віртуальні середовища
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# 💻 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 🧪 Тести та покриття
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+coverage.xml
+*.cover
+.hypothesis/
+
+# 📝 Debug та тимчасові файли
+debug_*.py
+diagnose_*.py
+tapo_debug.txt
+*.tmp
+*.bak
+*.old
+
+# 🪟 Windows
+*.exe
+*.msi
+*.lnk
+
+# 🍎 macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.env
+config.json
+*.log
+__pycache__/
+.env
