@@ -5,7 +5,7 @@ NetGuardian — Presentation Site
 Тема
 Інтелектуальна система моніторингу, діагностики та автоматичного відновлення локальних мереж на основі AI
 Перегляд сайту
-🌐 https://YOURNAME.github.io/netguardian-site](https://dim4ik24.github.io/netguardian-site/
+🌐 https://dim4ik24.github.io/netguardian-site/
 Технології
 
 Python 3.11, CustomTkinter GUI
